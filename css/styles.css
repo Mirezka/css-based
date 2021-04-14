@@ -26,6 +26,7 @@ h2 {
 .bottom-container {
     background-color: #bce6eb;
     margin-top: 50px 0px 10px;
+    padding: 30px
 }
 .top-cloud {
     position: absolute;
