@@ -25,8 +25,8 @@ h2 {
 } 
 .bottom-container {
     background-color: #bce6eb;
-    margin-top: 50px 0px 10px;
-    padding: 30px
+    padding: 50px 0 20px;
+    margin-top: 50px;
 }
 .top-cloud {
     position: absolute;
@@ -79,7 +79,10 @@ hr {
     width: 4%;
     margin: 100px auto;
 }
-
+.contact-message {
+    margin: 40px auto 60px;
+    margin: auto;
+}
 .btn {
     background: #53b2f1;
     -webkit-border-radius: 8;
@@ -96,10 +99,13 @@ hr {
     background: #a4b8c4;
     text-decoration: none;
   }
+  .contact-message {
+      line-height: 0;
+      margin-top: 30px;
+  }
   /* The css for something cool */
   
   @import url(//fonts.googleapis.com/css?family-Lato:300:400);
-
 .header {
     position: relative;
     text-align: center;
@@ -133,10 +139,8 @@ hr {
     text-align: center;
     background-color: white;
 }
-
 /* Animation css, or should i say,
 cool css part two */
-
 .parallax > use {
     animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
 }
@@ -144,17 +148,14 @@ cool css part two */
 animation-delay: -2s;
 animation-duration: 7s;
 }
-
 .parallax > use:nth-child(2) {
     animation-delay: -3s;
     animation-duration: 10s;
 }
-
 .parallax > use:nth-child(3) {
     animation-delay: -4s;
     animation-duration: 13s;
 }
-
 .parallax > use:nth-child(4) {
     animation-delay: -5s;
     animation-duration: 20s;
@@ -167,9 +168,7 @@ animation-duration: 7s;
         transform: translate3d(85px,0,0);
     }
 }
-
 /* Mobile responsive page */
-
 @media (max-width:768px) {
     .waves {
         height: 40px;
@@ -181,4 +180,5 @@ animation-duration: 7s;
     h1 {
         font-size:24px;
     }
+} 
 }
