@@ -95,11 +95,6 @@ hr {
     background: #a4b8c4;
     text-decoration: none;
   }
-  .contact-message {
-      line-height: 0;
-      margin-top: 30px;
-  }
-
   /* The css for something cool */
   
   @import url(//fonts.googleapis.com/css?family-Lato:300:400);
